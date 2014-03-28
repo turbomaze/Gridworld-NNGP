@@ -1,7 +1,7 @@
-Gridworld-NNGP
-==============
+# Gridworld-NNGP
+A Gridworld<sup>1</sup> Critter (named FlowerHunter) that hunts Flowers by using an artificial neural network (ANN) to make decisions. A genetic algorithm is used to improve the ANNs.
 
-A Gridworld Critter that hunts Flowers by using an artificial neural network (ANN) to make decisions. A genetic algorithm is used to improve the ANNs.
+<sup>1</sup> Gridworld is a Java program used to teach AP Computer Science to highschool students. It gives students the chance to work with a relatively large codebase without having to write a whole bunch of code themselves.
 
 ## The FlowerHunter Critter
 FlowerHunters are able to sense the immediate 8 spaces around them. They use their brains (ANNs) to decide where to move (they can only move to blank spots or spots with Flowers). All decisions are made by their brains (they have no hardcoded motivation to move towards Flowers).
