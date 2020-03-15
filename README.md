@@ -21,3 +21,7 @@ The fact that only FlowerHunters that score well are chosen means there's an env
 
 ## Next Steps
 Currently, there's no way to see the FlowerHunters in action. The hundreds of trials necessary for each generation take milliseconds to run, so clicking the "step" button leaves the Grid in whatever state the last FlowerHunter left it in. This means there's no way to qualitatively describe the behavior of successful FlowerHunters. I'm really intersted in seeing what kinds of strategies the CGP develops. Do brains *always* favor Flowers over empty spots? Do the FlowerHunters move towards the center of the Grid when there's nothing else they can do? The easiest way to answer these questions is to add a super slow-mo version of the program where **each** step of **each** trial of **each** FlowerHunter of **each** generation is rendered individually. Alternatively, the ability to export brains could be added, and then a separate program could be written that's nothing more than a FlowerHunter with that brain.
+
+## License
+
+MIT License: https://igliu.mit-license.org
